@@ -1,11 +1,11 @@
-### **Validation**
+# **Validations Guide**
 
 Move validation from controllers to Request classes.
 
 Bad:
 
 ```php
------ CONTROLLER CLASS -----
+### Controller Class
 public function store(Request $request)
 {
     $request->validate([
@@ -21,13 +21,13 @@ public function store(Request $request)
 Good:
 
 ```php
------ CONTROLLER CLASS -----
+### Controller Class
 public function store(PostRequest $request)
 {
     ...
 }
 
------ REQUEST CLASS -----
+### Request Class
 class PostRequest extends Request
 {
     public function rules(): array
@@ -40,3 +40,5 @@ class PostRequest extends Request
     }
 }
 ```
+
+
