@@ -30,3 +30,4 @@ Trait [(PSR)](https://www.php-fig.org/bylaws/psr-naming-conventions/) | adjectiv
 Enum | singular | UserType | ~~UserTypes~~, ~~UserTypeEnum~~
 FormRequest | singular | UpdateUserRequest | ~~UpdateUserFormRequest~~, ~~UserFormRequest~~, ~~UserRequest~~
 Seeder | singular | UserSeeder | ~~UsersSeeder~~
+In response Keys | smallcase, snake_case | user_id | ~~UserId~~, ~~User~~ 
