@@ -5,7 +5,7 @@ Move validation from controllers to Request classes.
 Bad:
 
 ```php
------ Controller class-------
+----- CONTROLLER CLASS -----
 public function store(Request $request)
 {
     $request->validate([
@@ -21,13 +21,13 @@ public function store(Request $request)
 Good:
 
 ```php
------ Controller class-------
+----- CONTROLLER CLASS -----
 public function store(PostRequest $request)
 {
     ...
 }
 
-------- Request class -------
+----- REQUEST CLASS -----
 class PostRequest extends Request
 {
     public function rules(): array
