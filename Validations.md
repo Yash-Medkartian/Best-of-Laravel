@@ -41,4 +41,7 @@ class PostRequest extends Request
 }
 ```
 
+### Points need to be taken care when Creating Request class
+- Need to extend BaseRequest in place of FormRequest which is by default extended whenever you create Request file using artisan command.
+- Need to create rules Base on route checks.
 
