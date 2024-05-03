@@ -31,3 +31,4 @@ Enum | singular | UserType | ~~UserTypes~~, ~~UserTypeEnum~~
 FormRequest | singular | UpdateUserRequest | ~~UpdateUserFormRequest~~, ~~UserFormRequest~~, ~~UserRequest~~
 Seeder | singular | UserSeeder | ~~UsersSeeder~~
 In response Keys | smallcase, snake_case | user_id | ~~UserId~~, ~~User~~ 
+Route Name | PascalCase | DemoRoutes.php | ~~demoRoutes.php, demo-routes.php~~
